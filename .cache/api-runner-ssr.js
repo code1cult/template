@@ -6,10 +6,10 @@ var plugins = [{
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
     },{
       plugin: require('/home/ilovetraffic/template/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-128204944-2","head":true},
+      options: {"plugins":[],"trackingId":"UA-128204944-3","head":true},
     },{
       plugin: require('/home/ilovetraffic/template/node_modules/gatsby-plugin-yandex-metrika/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"50936816","webvisor":true,"trackHash":true,"version":2},
+      options: {"plugins":[],"trackingId":"50986856","webvisor":true,"trackHash":true,"version":2},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

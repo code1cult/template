@@ -627,3 +627,6 @@ pre tt:after {
 strong{
 padding-right: 10px;  
 }
+li.last-li{
+  margin-bottom: 0px;
+}
