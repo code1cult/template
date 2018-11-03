@@ -28,14 +28,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-128204944-2",
+        trackingId: "UA-128204944-3",
         head: true,
       },
     },
     {
       resolve: `gatsby-plugin-yandex-metrika`,
       options: {
-        trackingId: '50936816',
+        trackingId: '50986856',
         webvisor: true,
         trackHash: true,
         version: 2

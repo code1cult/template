@@ -52,7 +52,7 @@ const IndexPage = ({ data }) => {
 
 
             <div className="clearfix">
-              <a className="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+              {/* <a className="btn btn-primary float-right" href="#">Older Posts &rarr;</a> */}
             </div>
           </div>
         </div>
