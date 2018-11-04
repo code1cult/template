@@ -8,11 +8,9 @@ import Footer from '../components/footer'
 let renderPosts = (array) => {
 
   return array.map((value, i) => {
-    debugger
     let title = value.node.data.title.text
     let url = value.node.data.id;
     let description = value.node.data.description.text.split(' ',50).join(' ') + '...';
-    let image = value.node.data.image.url
 
     
     return (
@@ -41,8 +39,8 @@ const IndexPage = ({ data }) => {
   debugger
   return (
     <div>
-      <Navigation />
-      <Header title={'Blog'}  image={'https://images.pexels.com/photos/1332189/pexels-photo-1332189.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'} />
+      <Navigation  />
+      <Header title={'How to Lose Weight'} description={'Blog About How to Lose Weight'}  image={'https://images.pexels.com/photos/1332189/pexels-photo-1332189.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'} />
 
       <div className="container">
         <div className="row">

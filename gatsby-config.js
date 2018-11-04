@@ -1,9 +1,9 @@
 module.exports = {
-  siteMetadata: {
-    title: `How to Lose Weight`,
-    siteUrl: `https://lose-weight.netlify.com/`,
-    description: `Blog About How to Lose Weight`,
-  },
+  // siteMetadata: {
+  //   title: `How to Lose Weight`,
+  //   siteUrl: `https://lose-weight.netlify.com/`,
+  //   description: `Blog About How to Lose Weight`,
+  // },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
