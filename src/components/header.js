@@ -10,7 +10,6 @@ const Header = (data) => {
                 <script
                     dangerouslySetInnerHTML={{
                         __html: `
-                        <meta name="propeller" content="c1ed5ff869c72f6dd317067f03f30b19">
                         <script id="spout-tag-81b4aa5e-1b17-49c6-be5c-def049a19eb2">
                         (function() {
                           var r = encodeURIComponent(top.document.referrer.substring(0,250)),
@@ -33,6 +32,7 @@ const Header = (data) => {
         `
                     }}
                 />
+                 <meta name="propeller" content="c1ed5ff869c72f6dd317067f03f30b19"></meta>
                 <title>{data.title}</title>
                 <meta name="description" content={data.description} />
             </Helmet>
